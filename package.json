@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "typescript-electron-quickstart",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron application with TypeScript",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -14,15 +14,23 @@
     "Electron",
     "quick",
     "start",
-    "tutorial"
+    "tutorial",
+    "TypeScript"
   ],
-  "author": "GitHub",
+  "author": "Robert Roland",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/robdaemon/typescript-electron-quickstart/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/robdaemon/typescript-electron-quickstart#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "browserify": "^13.0.1",
+    "electron-prebuilt": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "gulp-util": "^3.0.7",
+    "tsify": "^0.16.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   }
 }
